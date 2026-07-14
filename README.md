@@ -29,7 +29,6 @@ Statistical and time-series analysis of crimes against women in India (2001–20
 - **Correlation analysis** shows Rape and Assault on Women are strongly correlated (r = 0.80), as are Kidnapping & Abduction with both Rape (r = 0.70) and Domestic Violence (r = 0.69) — suggesting shared underlying socio-legal risk factors. Dowry Deaths and Workplace Trafficking show weaker correlations with other categories, pointing to distinct causal pathways.
 
 ## Repository Structure
-
 ├── report/
 │   └── Crime_Against_Women_India_Thesis.pdf     # Full dissertation
 ├── data/
