@@ -29,20 +29,21 @@ Statistical and time-series analysis of crimes against women in India (2001–20
 - **Correlation analysis** shows Rape and Assault on Women are strongly correlated (r = 0.80), as are Kidnapping & Abduction with both Rape (r = 0.70) and Domestic Violence (r = 0.69) — suggesting shared underlying socio-legal risk factors. Dowry Deaths and Workplace Trafficking show weaker correlations with other categories, pointing to distinct causal pathways.
 
 ## Repository Structure
-├── report/
-│   └── Crime_Against_Women_India_Thesis.pdf     # Full dissertation
-├── data/
-│   ├── crime_data_2001_2021.csv                 # NCRB-sourced yearly dataset
-│   └── forecast_2001_2031.csv                   # Actual + SARIMAX-forecasted values
-├── analysis/
-│   ├── chi_square_association_test.py           # Zone-wise crime association test
-│   ├── normality_tests.py                       # Shapiro-Wilk & K-S normality checks
-│   ├── arima_sarimax_forecasting.py             # Time-series forecasting to 2031
-│   ├── heatmap_analysis.py                      # Year-wise & correlation heatmaps
-│   └── bar_chart_analysis.py                    # Period-wise & state-wise bar charts
-├── visuals/
-│   └── (forecast plots, heatmaps, bar charts, state comparisons)
-└── requirements.txt
+- **report/**
+  - `Crime_Against_Women_India_Thesis.pdf` — Full dissertation
+- **data/**
+  - `crime_data_2001_2021.csv` — NCRB-sourced yearly dataset
+  - `forecast_2001_2031.csv` — Actual + SARIMAX-forecasted values
+  - `correlation_matrix.csv` — Correlation matrix output
+- **analysis/**
+  - `chi_square_association_test.py` — Zone-wise crime association test
+  - `normality_tests.py` — Shapiro-Wilk & K-S normality checks
+  - `arima_sarimax_forecasting.py` — Time-series forecasting to 2031
+  - `heatmap_analysis.py` — Year-wise & correlation heatmaps
+  - `bar_chart_analysis.py` — Period-wise & state-wise bar charts
+- **visuals/**
+  - Forecast plots, heatmaps, bar charts, state comparisons (20 images)
+- `requirements.txt` — Python dependencies
 
 ## Sample Result: Forecast Summary (2022–2031)
 
